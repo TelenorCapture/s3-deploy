@@ -55,7 +55,7 @@ jobs:
           run: yarn build
 
         - name: Deploy
-          uses: reggionick/s3-deploy@v3
+          uses: TelenorCapture/s3-deploy@v3
           with:
             folder: build
             bucket: ${{ secrets.S3_BUCKET }}
