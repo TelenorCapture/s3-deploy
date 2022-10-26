@@ -9,7 +9,7 @@ This action is based on the work done by import-io on [s3-deploy](https://www.np
 You can use this action by referencing the v3 branch
 
 ```yaml
-uses: reggionick/s3-deploy@v3
+uses: TelenorCapture/s3-deploy@v3
 with:
     folder: build
     bucket: ${{ secrets.S3_BUCKET }}
